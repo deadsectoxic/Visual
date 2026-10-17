@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "myvisuals",
+  "version": "0.1.0",
+  "name": "MyVisuals",
+  "description": "HUD: FPS/ping, cooldowns, potions.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.myvisuals.MyVisualsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "minecraft": "1.16.x",
+    "fabric": "*"
+  }
+}
